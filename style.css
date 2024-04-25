@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: radial-gradient(rgb(227,83,227), rgb(74,102,241));
+}
+
+
+.calendar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 14px 18px 5px #8888;
+}
+
+#right, #left{
+    width: 13vw;
+    height: 35vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#right{
+    background-color: deeppink;
+    color: orange;
+}
+
+#left{
+    background-color: orange;
+    color: deeppink;
+}
+
+#date, #month{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+#day, #year{
+    font-weight: bold;
+    font-size: 35px;
+}
+
